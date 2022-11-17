@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="sample.css"> -->
+    <style>
+        * {
+            /* color: azure; */
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            /* color: black; */
+            background-color: black;
+            /* display: inline; */
+            text-align: center;
+            color: rgba(2, 223, 25, 0.7);
+            align-items: center;
+        }
+
+        #sample {
+            background-color: aqua;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            color: brown;
+            position: relative;
+            display: block;
+        }
+
+        .box {
+            color: green;
+            background-color: black;
+        }
+
+        .container {
+            color: blueviolet;
+        }
+
+        #list {
+            /* text-decoration: overline dashed black; */
+            text-decoration: none;
+            font-size: xx-large;
+            font-weight: 200;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            display: inline;
+            align-items: left;
+            text-align: left;
+            border: 2px solid black;
+
+        }
+
+        #list:hover {
+            cursor: pointer;
+            background-color: aqua;
+        }
+
+        #logo img {
+            display: inline;
+            height: 85px;
+            width: 85px;
+            border-radius: 50px;
+        }
+
+        .nav {
+            position: relative;
+            display: inline-flex;
+            top: 10px;
+        }
+
+        li:first-child {
+            color: salmon;
+        }
+
+        li:nth-child(2) {
+            color: blueviolet;
+        }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+        #box {
+            font-size: 50px;
+            /* display: inline; */
+            height: 200px;
+            width: 200px;
+            /* padding: 200px 200px; */
+            color: aqua;
+            text-align: center;
+            /* margin:  200px 200px 200px 200px; */
+            border: 2px solid black;
+            background-color: rgb(174, 109, 24);
+            /* position: absolute; */
+            position:absolute;
+            top: 200px;
+            /* right: 0px; */
+        }
+
+        #box2 {
+            font-size: 50px;
+            position: absolute;
+            top: 600px;
+            left: 400px;
+            /* right: 100px; */
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            /* margin-left:200px; */
+            border: 2px solid black;
+
+        }
+
+        #box3 {
+            font-size: 800%;
+            position: absolute;
+            top: 400px;
+            left: 200px;
+            background-color: blueviolet;
+            height: 200px;
+            text-align: center;
+            border: 3px solid black;
+            width: 200px;
+            /* margin-left:400px; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Online ordering</h1>
+    <nav class="nav">
+        <div id="logo">
+            <img src="/logodip.png" alt="">
+        </div>
+
+        <ul>
+            <li id="list">Home</li>
+            <li id="list">about</li>
+            <li id="list">Contact us</li>
+            <li id="list">services</li>
+        </ul>
+    </nav>
+    <p id="sample">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea debitis voluptas qui sapiente illum
+        eaque similique!
+        Deserunt, officiis. Sapiente, natus! Voluptas nobis voluptatem ipsum doloribus perspiciatis optio accusantium,
+        vel error.</p>
+    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga, ratione optio quas
+        quibusdam dicta consequuntur officiis itaque esse numquam, cumque repudiandae? Nostrum, quas illo iusto tenetur
+        aliquam facere quaerat.</p>
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. A perferendis ipsum officia pariatur
+        ratione quaerat eos explicabo necessitatibus quo voluptas? Aliquid sed voluptates eius necessitatibus ullam!
+        Veniam cumque nulla similique.</div>
+    <div id="box">Boxbody</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+
+
+</body>
+
+</html>
